@@ -1,0 +1,22 @@
+﻿<script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                     document.getElementById("formulario").addEventListener('keyup', validarFormulario); 
+                        });
+                    function validarFormulario(input) 
+                    {
+                        //evento.preventDefault();
+                        var usuario = document.getElementById("input");
+                        if (usuario.value.length > 0 ){ 
+                            document.getElementById("validar").disabled = false;
+                        }
+						else{
+							document.getElementById("validar").disabled = true; 
+						}
+                    }
+                </script>
+ <form id = 'formulario'>
+ <input type="text" placeholder="Teléfono, usuario o correo electrónico" name="usuario" id="input">
+               <input type="password" placeholder="Contraseña" name="contraseña" id="input">
+               <button class="boton" type="submit" name="submit" id="validar" onclick="validarFormulario()" disabled="" >
+Iniciar sesión </button>
+</form>

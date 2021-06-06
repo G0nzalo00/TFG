@@ -1,0 +1,262 @@
+.principal{
+   			height: 810px;
+   			width: 100%; font-family: Helvetica;
+
+   		}
+         .movil{
+            margin-top: 95px;
+         }
+         .subprin{
+            text-align: right;
+            height: 810px;
+            width: 49%;
+            float: left; font-family: Helvetica;
+         }
+         .mitad{
+             height: 810px;
+             width: 45%;
+             float: left; font-family: Helvetica;
+
+         }
+         .imagenes{
+          height: 428px;
+          width: 242px;
+          top: 184px;
+          bottom: 317px;
+          left: 670px;
+          float: left;
+          display: flex;
+           position: absolute;
+          }
+        .image{
+          position: absolute;
+          opacity: 1;
+          transition: opacity 1.5s ease-in;
+          z-index: 2;
+          -webkit-transition: opacity 1.5s ease-in;
+          display: none;
+        }
+         .subprincipal{
+          margin-right: 610px;
+          margin-top: 119px;
+            text-align: left;
+            height: 382px;
+            width: 349PX;
+            float: right;
+            border-style: solid;
+            border-color: rgb(219,219,219);
+            border-width: 0.01em;
+            background-color: white; font-family: Helvetica;
+
+         }
+         form{
+          width: 348px;
+          text-align: center; font-family: Helvetica;
+         }
+         .logotipo{
+          
+
+         }
+         .container-img{
+          margin-top: 19px;
+          text-align: center; font-family: Helvetica;
+         }
+         input[type="text"]{
+         
+          margin-top: 30px;
+          width: 65%;
+          padding: 12px;
+          font-size: 11px;
+         border-radius: 3px;
+         border-color: #D2D2D2;
+        border-style: solid;
+        border-width:1px;
+        line-height:14px; font-family: Helvetica;
+        overflow: hidden;
+        outline: none;
+         }
+         input[type="password"]{
+        
+          margin-top: 10px;
+          width: 65%;
+          padding: 12px;
+          font-size: 11px;
+         border-radius: 3px;
+        border-color: #D2D2D2;
+        border-style: solid;
+        border-width:1px;
+        line-height:14px;outline:none;overflow:hidden; font-family: Helvetica;
+         }
+          button {
+          margin-top: 18px;
+          background-color: #0095f6;
+          color: white;
+          width: 72%;
+          padding: 8px;
+          border-radius: 4px;
+          font-weight: 700;
+          border-color: #D2D2D2;
+          border-style: solid;
+          border-width:1px;
+          line-height:18px;
+          outline:none;
+          overflow:hidden; 
+          font-family: Helvetica;
+          cursor: pointer;
+         }
+         .container-or{
+          margin-top: 20px;
+          margin-left: 50px;
+          width: 72%;
+          display: flex;
+          justify-content: space-between; font-family: Helvetica;
+         }
+         .container-or p{
+          padding-left: 5px;
+          padding-right: 5px; font-family: Helvetica;
+         }
+         .container-or hr{
+          width: 348px;
+          height: 0.001em;
+          color: #F0F0F0; font-family: Helvetica;
+         }
+      
+         .container-iconf{
+          margin-top: 20px; font-family: Helvetica;
+         }
+         .icon-facebook{
+          color: #385185;
+          font-weight: 700; font-family: Helvetica;
+
+         }
+         .container-passwd{
+          margin-top: 20px;
+          color: #00376B;
+          font-weight: 200; font-family: Helvetica;
+         }
+         .container-register{
+          color: #2A3854;
+          margin-top: 30px;
+          background-color: white;
+          height: 63px;
+          font-weight: 5250;
+          font-size: 14px;
+          width: 349px;
+          border-style: solid;
+          border-color: rgb(219,219,219);
+          border-width: 0.01em;
+           font-family: Helvetica;
+         }
+         .container-register p{
+          padding-top: 5px; font-family: Helvetica;
+         }
+         .container-register a{
+            font-weight: 600;
+            color:#0095f6;
+            text-decoration:none;
+             font-family: Helvetica;
+         }
+          .container-register a:visited{
+            color:#77B2D1; ;
+          }
+         .Botones-Descarga{
+          width: 348PX;
+            margin-top: 20px;
+            color: black; 
+font-family: Helvetica;
+
+         }          
+   		.footer {background-color: rgba(250,250,250);
+
+         position: absolute;
+         width: 99%;
+         height: 100px;
+         font-family: Helvetica;
+
+   		 }
+   		 .piepagina {background-color: rgba(250,250,250);
+
+   		 	width: 100%;
+   		 	height: 100px;
+        font-family: Helvetica;
+
+   		 }
+   		 .linea1{background-color: rgba(250,250,250);
+
+            justify-content: center;
+   		 	width: 100%;
+   		 	height: 35px;
+        font-family: Helvetica;
+
+   		 }
+          .li1{background-color: rgba(250,250,250);
+            height: 25px;
+             display: flex;
+            justify-content: center;
+            font-family: Helvetica;
+
+          }
+           .op1{ background-color: rgba(250,250,250);
+            height: 35px;
+            width: 36%;
+             text-align: center;
+             font-family: Helvetica;
+
+          }
+           .linea2{
+            background-color: rgba(250,250,250);
+            justify-content: center;
+             display: flex;
+        width: 100%;
+        height: 30px;
+        font-family: Helvetica;
+
+       }
+      
+          .caj2{background-color: rgba(250,250,250);
+            height: 25px;
+            float: right;
+            width: 48%;
+            text-align: center;
+            font-family: Helvetica;
+            color: #9A9A9A;
+          }
+          
+          .footer a:visited {
+            color: #9A9A9A; 
+            font-family: Helvetica;
+
+            }
+            table{
+               width: 100%;
+            }
+            @font-face {
+            font-family: Helvetica;
+            src: url('HelveticaLTStdBlk.otf'), 
+                 url('HelveticaLTStdBlkCond.otf'), 
+                 url('HelveticaLTStdBlkCondObl.otf'),
+                 url('HelveticaLTStdBlkObl.otf'), 
+                 url('HelveticaLTStdBold.otf'),
+                 url('HelveticaLTStdBoldCond.otf'),
+                 url('HelveticaLTStdBoldCondObl.otf'),
+                 url('HelveticaLTStdBoldObl.otf'),
+                 url('HelveticaLTStdComp.otf'),
+                 url('HelveticaLTStdCond.otf'),
+                 url('HelveticaLTStdCondObl.otf'),
+                 url('HelveticaLTStdExtraComp.otf'),
+                 url('HelveticaLTStdFractions.otf'),
+                 url('HelveticaLTStdFractionsBd.otf'),
+                 url('HelveticaLTStdLight.otf'),
+                 url('HelveticaLTStdLightCond.otf'),
+                 url('HelveticaLTStdLightCondObl.otf'),
+                 url('HelveticaLTStdLightObl.otf'),
+                 url('HelveticaLTStdObl'),
+                 url('HelveticaLTStdRoman.otf'),
+                 url('HelveticaLTStdUltraComp.otf'),
+               }
+            body{
+              background-color: rgba(250,250,250);
+               font-family: Helvetica;
+               font-size: 12px;
+               color:#8E8E8E;
+            }
